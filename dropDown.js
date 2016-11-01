@@ -7,7 +7,7 @@
  */
 
 
-
+(function(){
 jQuery.fn.dropDown = function(){
     var items = $(this).find('.dropdown-item');
     var button = $(this).find('.dropdown-toggle');
@@ -19,3 +19,4 @@ jQuery.fn.dropDown = function(){
         input.val($(this).data('value'));
     });
 }
+})();
