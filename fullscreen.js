@@ -1,3 +1,7 @@
+/*
+    This plugin creates a clone of the element as a placeholder inserted into the element's original position, makes the element
+    fullscreen with fixed position.
+*/
 (function ($) {
     var topPos, leftPos, width, height, style;
     $.fn.fullScreen = function (flag) {
